@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Inter, Helvetica, sans-serif;
+  }
+  
+  header {
+    display: block;
+    margin: 0;
+    padding: 200px 40px 0px 40px;
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+
+  .intro{
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .intro:focus{
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    text-decoration: none;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+  }
+  
+  nav a {
+    color: #080808;
+    text-decoration: none;
+  }
+
+  .navlink a {
+    color: rgb(255, 2, 2);
+  }
+
+  ul {
+    display: inline;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  main {
+    position: relative;
+    padding: 40px;
+    background-color: #f2f2f2;
+    color: #000000;
+    font-size: 100%;
+    text-align: left;
+  }
+
+  div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  div > section:first-child {
+    padding: 20px;
+    background-color: #e5e5e5;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+  }
+
+  section {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 12px;
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+  }
+  
+  section:hover {
+    background-color: #e5e5e5;
+    border-radius: 20px;
+  }
+  
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    border: 5px solid #5a5a5a;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 200%;
+    font-family: Inter, Helvetica, sans-serif;
+    color: #000000;
+  }
+  
+  p {
+    font-size: 100%;
+    font-family: Inter, Helvetica, sans-serif;
+    color: #000000;
+    line-height: 200%;
+  }
