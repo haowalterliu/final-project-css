@@ -58,9 +58,9 @@ html {
     text-decoration: none;
   }
 
-  .navlink a {
-    color: blue;
-  }
+li.navlink a {
+  color: rgb(255, 2, 2) !important;
+}
 
   ul {
     display: inline;
